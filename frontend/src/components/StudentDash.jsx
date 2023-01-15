@@ -66,7 +66,7 @@ function AddCourse(props) {
 
   async function addToBlock(savedcourse) {
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://polygon-mumbai.g.alchemy.com/v2/PU-00iMyzujjZKf0k72eIFJ4a7zCHYUW"
+      "https://polygon-mumbai.g.alchemy.com/v2/*****************************"
     );
     console.log(Data.pvtkey)
     const signer = new ethers.Wallet(
